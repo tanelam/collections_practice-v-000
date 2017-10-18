@@ -12,10 +12,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-    varOne = array[0]
-    varTwo = array[2, 1]
-    varThree = arrayOne + arrayTwo
-    return varThree
+    array[2], array[1] = array[1], array[2]
+    return array
 
 end
 
