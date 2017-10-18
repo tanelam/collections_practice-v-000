@@ -15,7 +15,7 @@ def swap_elements(array)
   array.map do |word|
     if array[0] == word
      word
-   else array.sort {|a, b| b<=>a}
+   else word.sort {|a, b| b<=>a}
     end
   end
 end
