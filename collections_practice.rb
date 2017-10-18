@@ -17,7 +17,6 @@ def swap_elements(array)
    else
      array[2, 1].join(" ")
     end
-
 end
 
 def reverse_array(array)
