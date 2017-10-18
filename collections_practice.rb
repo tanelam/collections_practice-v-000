@@ -14,7 +14,8 @@ end
 def swap_elements(array)
     varOne = array[0]
     varTwo = array[2, 1]
-    return varOne.join(varTwo)
+    varThree = arrayOne + arrayTwo
+    return
 
 end
 
