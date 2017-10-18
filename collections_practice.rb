@@ -12,7 +12,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.map do |word|
+  array do |word|
     if array[0] == word
      word
    else
