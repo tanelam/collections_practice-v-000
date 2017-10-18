@@ -15,7 +15,8 @@ def swap_elements(array)
   array.map do |word|
     if array[0] == word
      word
-   else array[2, 1]
+   else
+     puts array[2, 1]
     end
   end
 end
