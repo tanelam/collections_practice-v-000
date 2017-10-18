@@ -12,11 +12,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-   if array[0] == word
-     word
-   else
-     array[2, 1].join(" ")
-    end
+   array[0, 2, 1]
 end
 
 def reverse_array(array)
