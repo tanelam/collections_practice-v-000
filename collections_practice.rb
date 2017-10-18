@@ -13,7 +13,7 @@ end
 
 def swap_elements(array)
    array[2,1]
-   return array
+   return array[2, 1]
 end
 
 def reverse_array(array)
