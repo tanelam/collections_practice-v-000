@@ -16,7 +16,7 @@ def swap_elements(array)
     if array[0] == word
      word
    else
-     reverse
+     reverse_array
     end
   end
 end
