@@ -16,7 +16,7 @@ def swap_elements(array)
     if array[0] == word
      word
    else
-     array[1, 3].join(" ")
+     array[1, 2].join(" ")
     end
   end
 end
